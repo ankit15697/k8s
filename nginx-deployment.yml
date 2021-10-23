@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  # Inside labels any value can be put for use of devops 
+  labels:
+    app: myapp
+    # It can be use to group pods
+    type: testing
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx

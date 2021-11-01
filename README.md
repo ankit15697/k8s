@@ -12,4 +12,6 @@
     <li>kubectl get pods -o wide</li>
     <li>kubectl delete pod podName</li>
     <li>kubectl apply -f deploymentName</li>
+    <li>kubectl config set-context $(kubectl config current-context) --namespace=dev</li>
+
 </ul>
